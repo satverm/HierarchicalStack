@@ -1,0 +1,82 @@
+[
+  {
+    "uuid": "1a4a8805-c470-46bd-8f66-f2f826c1d261",
+    "name": "parent",
+    "description": "Parent",
+    "level": 0,
+    "child_index": 1,
+    "code": "000001",
+    "parent_code": "000000",
+    "full_code": "000000000001",
+    "attributes": {},
+    "children_codes": [
+      "000001010001",
+      "000001010002"
+    ],
+    "technology_refs": [
+      "000001010001",
+      "010001020001"
+    ]
+  },
+  {
+    "uuid": "7ab872c7-a894-458c-9fe1-1e5b0af36fac",
+    "name": "L1item1",
+    "description": "L1I1",
+    "level": 1,
+    "child_index": 1,
+    "code": "010001",
+    "parent_code": "000001",
+    "full_code": "000001010001",
+    "attributes": {},
+    "children_codes": [
+      "010001020001"
+    ],
+    "technology_refs": []
+  },
+  {
+    "uuid": "cc6f6f3f-973e-41cd-b636-d15e6831b5a7",
+    "name": "L1I2",
+    "description": "L1I2",
+    "level": 1,
+    "child_index": 2,
+    "code": "010002",
+    "parent_code": "000001",
+    "full_code": "000001010002",
+    "attributes": {
+      "mechanical": "A test attrib"
+    },
+    "children_codes": [
+      "010002020001"
+    ],
+    "technology_refs": []
+  },
+  {
+    "uuid": "631b476b-5370-452f-a792-d6af6760f6ed",
+    "name": "L2I1",
+    "description": "L2I1",
+    "level": 2,
+    "child_index": 1,
+    "code": "020001",
+    "parent_code": "010001",
+    "full_code": "010001020001",
+    "attributes": {},
+    "children_codes": [],
+    "technology_refs": [
+      "010001020001",
+      "000001010002"
+    ]
+  },
+  {
+    "uuid": "54b79b72-4b30-46d4-a244-dfc740555ebf",
+    "name": "new element",
+    "description": "new element below L1I2",
+    "level": 2,
+    "child_index": 1,
+    "code": "020001",
+    "parent_code": "010002",
+    "full_code": "010002020001",
+    "attributes": {},
+    "children_codes": [],
+    "technology_refs": []
+  }
+]

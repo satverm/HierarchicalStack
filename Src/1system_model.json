@@ -1,0 +1,90 @@
+[
+  {
+    "id": "e72a62fa-2f0f-40d2-a931-01a65af32cc2",
+    "name": "Toplevel",
+    "description": "Rop level system",
+    "parent_id": null,
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "1fb26860-cd28-4e31-a140-13a806fb70b0",
+    "name": "System1",
+    "description": "L1 System 1",
+    "parent_id": "e72a62fa-2f0f-40d2-a931-01a65af32cc2",
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "2cbe667b-8b7f-4655-b33a-68b55427ebb9",
+    "name": "System2",
+    "description": "L1 System 2",
+    "parent_id": "e72a62fa-2f0f-40d2-a931-01a65af32cc2",
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "bc4e0c63-3d2d-4795-a18c-82a93f4f1416",
+    "name": "System3",
+    "description": "L1 System 3",
+    "parent_id": "e72a62fa-2f0f-40d2-a931-01a65af32cc2",
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "a43a06a2-cc59-4dae-b276-9b9305010a60",
+    "name": "L2System1",
+    "description": "L2 System 1",
+    "parent_id": "1fb26860-cd28-4e31-a140-13a806fb70b0",
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "84037da8-1dec-403e-9682-8778a07deb45",
+    "name": "L2System2",
+    "description": "L2 System 2",
+    "parent_id": "1fb26860-cd28-4e31-a140-13a806fb70b0",
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "b0e416a2-5d63-4ee8-980b-d4c714292ab5",
+    "name": "L2System3",
+    "description": "L2 System 3",
+    "parent_id": "1fb26860-cd28-4e31-a140-13a806fb70b0",
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "153315b5-52bb-4bfc-a29c-55ea55661560",
+    "name": "L2System1",
+    "description": "L2 System 1",
+    "parent_id": "2cbe667b-8b7f-4655-b33a-68b55427ebb9",
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "2827b748-4390-4383-92d5-02db7e14d9ec",
+    "name": "L2System2",
+    "description": "L2 System 2",
+    "parent_id": "2cbe667b-8b7f-4655-b33a-68b55427ebb9",
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "c4f93ae4-b5c0-4ffe-bde1-8949dcc0b274",
+    "name": "L3System1",
+    "description": "L3System 1",
+    "parent_id": "a43a06a2-cc59-4dae-b276-9b9305010a60",
+    "attributes": {},
+    "connections": []
+  },
+  {
+    "id": "9a45f4a8-5a20-4ee8-93e7-8e9b4c4535e0",
+    "name": "L3System2",
+    "description": "L3System 2",
+    "parent_id": "a43a06a2-cc59-4dae-b276-9b9305010a60",
+    "attributes": {},
+    "connections": []
+  }
+]

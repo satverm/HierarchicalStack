@@ -1,0 +1,32 @@
+{
+  "elements": {
+    "00000001": {
+      "name": "Mechanical",
+      "full_code": "00000001"
+    },
+    "00000002": {
+      "name": "Electrical",
+      "full_code": "00000002"
+    },
+    "00000003": {
+      "name": "Data",
+      "full_code": "00000003"
+    },
+    "00000004": {
+      "name": "Fluid",
+      "full_code": "00000004"
+    }
+  },
+  "connections": [
+    {
+      "source_code": "000000010001",
+      "target_code": "000000030001",
+      "attributes": {
+        "Voltage": "12 Volts"
+      },
+      "connection_elements": [
+        "00000002"
+      ]
+    }
+  ]
+}

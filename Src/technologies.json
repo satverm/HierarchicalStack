@@ -1,0 +1,58 @@
+[
+  {
+    "uuid": "336aeaac-4d85-4813-8b62-b4621710529e",
+    "name": "TechParent",
+    "description": "This  is Tech Top",
+    "level": 0,
+    "child_index": 1,
+    "code": "000001",
+    "parent_code": "000000",
+    "full_code": "000000000001",
+    "attributes": {},
+    "children_codes": [
+      "000001010001",
+      "000001010002"
+    ]
+  },
+  {
+    "uuid": "514805e6-552a-4bfb-aa14-c47d553eacfd",
+    "name": "Mech",
+    "description": "Mech",
+    "level": 1,
+    "child_index": 1,
+    "code": "010001",
+    "parent_code": "000001",
+    "full_code": "000001010001",
+    "attributes": {},
+    "children_codes": [
+      "010001020001"
+    ]
+  },
+  {
+    "uuid": "bd4ec61a-6f6c-42c8-aa12-65d4f0201892",
+    "name": "Elect",
+    "description": "Elect",
+    "level": 1,
+    "child_index": 2,
+    "code": "010002",
+    "parent_code": "000001",
+    "full_code": "000001010002",
+    "attributes": {
+      "energy": "Energy due tp flow of electrons",
+      "state": "High or lpw"
+    },
+    "children_codes": []
+  },
+  {
+    "uuid": "80cd6d06-bc6c-4dec-aef4-2becf4d674cc",
+    "name": "fluid",
+    "description": "fluid",
+    "level": 2,
+    "child_index": 1,
+    "code": "020001",
+    "parent_code": "010001",
+    "full_code": "010001020001",
+    "attributes": {},
+    "children_codes": []
+  }
+]

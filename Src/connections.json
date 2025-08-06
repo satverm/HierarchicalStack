@@ -1,0 +1,50 @@
+[
+  {
+    "uuid": "e6b7cb66-4f9a-43db-8921-30546cc9976c",
+    "source": "010001020001",
+    "type_id": "ELEC",
+    "type_label": "Electrical",
+    "target": "010002020002",
+    "description": "Alternator to bty"
+  },
+  {
+    "uuid": "4fe9b49e-13a1-4a1a-b7ad-14ca8459be2c",
+    "source": "010001020001",
+    "type_id": "LOGI",
+    "type_label": "Logical",
+    "target": "010002020002",
+    "description": "Alternator cutout"
+  },
+  {
+    "uuid": "785880c7-2c49-4831-8893-eb08b3c91efc",
+    "source": "010001",
+    "type_id": "ELEC",
+    "type_label": "Electrical",
+    "target": "010003",
+    "description": "cable con"
+  },
+  {
+    "uuid": "d4191587-5662-4e11-bd11-3bd54f30f910",
+    "source": "010003",
+    "type_id": "DATA",
+    "type_label": "Data",
+    "target": "010002",
+    "description": "signal"
+  },
+  {
+    "uuid": "83827601-2608-486d-8943-7dcdfe09f9bb",
+    "source": "000000000001",
+    "type_id": "HYDR",
+    "type_label": "Hydraulic",
+    "target": "000001010001",
+    "description": "hud coon"
+  },
+  {
+    "uuid": "075fcadd-6595-4e68-b447-1ab5463746af",
+    "source": "000000000001",
+    "type_id": "PNUM",
+    "type_label": "Pneumatic",
+    "target": "000001010002",
+    "description": "pnu con"
+  }
+]
